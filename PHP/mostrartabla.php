@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-$inc = include("db.php");
+$inc = include("basededatos.php");
 
 if ($inc) {
     $id     = trim($_POST['id']);
