@@ -1,7 +1,7 @@
 <?php
     if ($_SERVER ['REQUEST_METHOD'] == 'GET')
     {
-        require_once('db.php');
+        require_once('basededatos.php');
         $id = $_GET['id'];
 
         $query = "SELECT * FROM user Where id ='$id'";

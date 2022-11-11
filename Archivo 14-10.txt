@@ -1,0 +1,27 @@
+import android.widget.AdapterView;
+
+import com.example.recivereviw.R;
+
+public class recivereviw {
+
+    public class recivereviw extends recivereviw
+
+    private list<string> ndata;
+    private layoutInflater nInflater;
+    private AdapterView.OnItemClickListener nItemClickListener;
+
+     Mrecivereviwadapter (context context, list <string> data) {
+      this.nInflater = layoutinflater.from(context);
+      this.ndata = data;
+
+      @Override
+             view view = nInflater.inflate(R.layout.recivereviw_row, parent, false);
+              return new viewholder (view);
+
+    }
+    @Override
+       public void onBindViewHolder(viewholder holder, int position) {
+         string nombre = ndata.get(position);
+         holder.mytextview.settext (nombre);
+         
+    }
