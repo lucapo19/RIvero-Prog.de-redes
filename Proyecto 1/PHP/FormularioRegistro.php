@@ -26,15 +26,8 @@
                                         <input type="text" name="apellido"  required />
                                     </div>
 
-                                    <div class="form-element">
-                                        <label>Edad</label><br>
-                                        <input type="text" name="edad" pattern="[0-9]+" required />
-                                    </div>
-
-                                    <div class="form-element">
-                                        <label>DNI</label><br>
-                                        <input type="text" name="dni" pattern="[0-9]+" required />
-                                    </div>
+                                    
+                                   
 
                                     <div class="form-element">
                                         <label>Email</label><br>
@@ -47,10 +40,7 @@
                                         <input type="text" name="username" required />
                                     </div>
 
-                                    <div class="form-element">
-                                        <label>Telefono</label><br>
-                                        <input type="text" name="telefono" pattern="[0-9]+" required />
-=======
+                                    
                                         <label>Nombre de Usuario</label>
                                         <input type="text" name="usuario" required />
 >>>>>>> 7b1635dc12fd1edde3a64999b7ce9e517acdc13f:php/FormReg.php

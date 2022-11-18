@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-11-2022 a las 20:15:44
+-- Tiempo de generación: 18-11-2022 a las 18:04:37
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -41,7 +41,6 @@ CREATE TABLE `rol` (
 
 CREATE TABLE `tags` (
   `id` int(11) NOT NULL,
-  `uid` int(11) NOT NULL,
   `tag` int(11) NOT NULL,
   `estado` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -56,10 +55,7 @@ CREATE TABLE `usuarios` (
   `ID` int(11) NOT NULL,
   `nombre` int(11) NOT NULL,
   `apellido` int(11) NOT NULL,
-  `dni` int(11) NOT NULL,
-  `edad` int(11) NOT NULL,
   `contraseña` int(11) NOT NULL,
-  `uid` int(11) NOT NULL,
   `email` int(11) NOT NULL,
   `tipo` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
